@@ -70,4 +70,54 @@ are common pitfalls.
 You can use Math.random() to obtain a random double value between 0.0 and 1.0, 
 excluding 1.0
 
-# Left off at page 112 on the new book 
+## 3.8 
+```java
+System.eixt(status)
+```
+Invoking this method terminates the program. The status 0 indicates that the program is terminated normally. A nonzero status code indicates abnormal termination.
+
+## 3.10 Logical Operators 
+The logical operators !, &&, ||, and ^ can be used to create a compound Boolean 
+expression.
+### Table 3.3 — Boolean Operators
+
+| Operator | Name         | Description         |
+|----------|--------------|---------------------|
+| `!`      | not          | logical negation    |
+| `&&`     | and          | logical conjunction |
+| `\|\|`   | or           | logical disjunction |
+| `^`      | exclusive or | logical exclusion   |
+
+`!` negates true to false, and false to true.
+
+`&&` is true if and only if both operands are true.
+
+`\|\|` is ture if at least one of the operands is true.
+
+`^`is true if and only if if the two operands have different Boolean values. 
+
+## 3.13 swtich Statements 
+A switch statement executes statements based on the value of a variable or an 
+expression.
+
+## 3.14 Conditional Expressions 
+A conditional expression evaluates an expression based on a condition.
+
+```java
+if(x > 0)
+  y = 1; 
+else 
+  y = -1;
+```
+Alternative
+```java
+y = (x > 0) ? 1 : -1;
+```
+Conditional expressions are in a completely different style, with no explicit `if` in the state
+ment. The syntax is
+```bash 
+boolean-expression ? expression1 : expression2;
+```
+The symbols `?` and `:` appear together in a conditional expression. They form a 
+conditional operator and also called a ***ternary operator*** because it uses three operands. 
+It is the only ternary operator in Java.
