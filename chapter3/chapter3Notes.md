@@ -121,3 +121,42 @@ boolean-expression ? expression1 : expression2;
 The symbols `?` and `:` appear together in a conditional expression. They form a 
 conditional operator and also called a ***ternary operator*** because it uses three operands. 
 It is the only ternary operator in Java.
+
+## 3.15 Operator Precedence and Associativity
+Operator precedence and associativity determine the order in which operators are 
+evaluated.
+
+operators are applied according to the precedence rule and the 
+associativity rule.
+| Precedence (High → Low) | Operators | Description |
+|------------------------|-----------|-------------|
+| 1 | `var++`, `var--` | Postfix increment / decrement |
+| 2 | `+`, `-`, `++var`, `--var` | Unary plus/minus, Prefix increment/decrement |
+| 3 | `(type)` | Casting |
+| 4 | `!` | Logical NOT |
+| 5 | `*`, `/`, `%` | Multiplication, Division, Remainder |
+| 6 | `+`, `-` | Binary addition and subtraction |
+| 7 | `<`, `<=`, `>`, `>=` | Relational |
+| 8 | `==`, `!=` | Equality |
+| 9 | `^` | Exclusive OR |
+|10 | `&&` | Logical AND |
+|11 | `\|\|` | Logical OR |
+|12 | `=`, `+=`, `-=`, `*=`, `/=`, `%=` | Assignment operators |
+
+All binary operators except assignment operators are left associative.
+
+## 3.16 Debugging 
+Debugging is the process of finding and fixing errors in a program.
+
+Logic errors are called bugs.
+
+The process of finding and correcting errors is called 
+debugging. 
+
+How to debug:
+- Executing a single statement at a time
+- Tracing into or stepping over a method
+- Setting breakpoints
+- Displaying variables
+- Displaying call stacks
+- Modifying variables

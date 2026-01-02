@@ -22,5 +22,6 @@ public class TestBooleanOperators {
         {
             System.out.println(number + " is divisible by 2 or 3, but not both.");
         }
+        inupt.close();
     }
 }

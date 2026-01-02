@@ -1,4 +1,4 @@
-package chapter3.noteCode;
+package chapter3.exercises;
 import java.util.Scanner;
 public class ComputeTax {
     public static void main(String[] args)

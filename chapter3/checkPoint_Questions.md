@@ -34,5 +34,5 @@ else
 ## 3.36 Write conditional expression that returns -1 or 1 randomly.
 
 ```java
-
+int result = (Math.random() < 0.5) ? -1 : 1
 ```

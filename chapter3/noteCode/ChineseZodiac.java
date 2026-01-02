@@ -47,5 +47,6 @@ public class ChineseZodiac {
                 break;
                 
         }
+         input.close();
     }
 }
